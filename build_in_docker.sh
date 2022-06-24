@@ -3,7 +3,7 @@
 set -eu -o pipefail
 
 DOCKER_IMAGE=fedora:33
-# DOCKER_IMAGE=fedora_build:33
+# DOCKER_IMAGE=fedora_build:36
 RPMBUILD_HOST_PATH=~/rpmbuild
 
 mkdir -p ${RPMBUILD_HOST_PATH}
